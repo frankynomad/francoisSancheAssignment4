@@ -1,0 +1,1066 @@
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+/**********************************************ABOUT/HOME PAGE*********************************************************************/
+body {
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: lowercase;
+	text-shadow: 4px 4px 3px #A8A9A1;
+
+}
+
+
+h1 {
+	font-family: 'Maven Pro', sans-serif;
+	font-size: 2.5em;
+	margin: 0;
+	text-align: center;
+	text-transform: lowercase;
+}
+
+.bulletAlign {
+	margin-top:50px;
+	padding: 0 20px;
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+header {
+	
+	width: 100%;
+	height: 655px;
+	padding-top: 30px;
+	
+}
+
+#logo {
+	width: 100%;
+	height: 75px;
+	float:left;
+	margin: 0 auto;
+	margin-bottom:35px;
+}
+
+nav {
+	width:1200px;
+	background-color: #FFF;
+	padding-bottom: 30px;
+	margin: 0 auto;
+
+}
+
+#navWrap {
+	float:left;
+}
+
+#icons {
+	float:right;
+
+}
+#topnav {
+
+}
+
+
+#iconOne {		
+	width:75px;
+	height:75px;
+	background-image: url('../assets/images/abouticonpink.png');
+
+}
+
+
+#iconTwo {
+	width:75px;
+	height:75px;
+	background-image: url('../assets/images/shopiconpink.png');
+}
+
+#iconThree {
+	width:75px;
+	height:75px;
+	background-image: url('../assets/images/emailiconpink.png');
+}
+
+#iconFour {
+	width:75px;
+	height:75px;
+	background-image: url('../assets/images/facebookiconpink.png');
+}
+
+#iconFive {
+	width:75px;
+	height:75px;
+	background-image: url('../assets/images/twittericonpink.png');
+
+
+}
+
+
+
+ul#topnav {
+	width:377;
+	
+
+	
+}
+
+ul#topnav img {
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+}
+
+#topnav img.top:hover {
+  opacity:0;
+}
+
+ul#topnav li {
+	display: inline-block;
+}
+
+/*ul#topnav li {
+	opacity: .5;
+}
+*/
+ul#topnav li:hover {
+	opacity: 1;
+
+}
+
+section#quote {
+	height: 700px;
+	background-image: url('../assets/images/sectionimage1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0 auto;
+	float:left;
+	width:100%;
+	padding: 0 100px;
+}
+
+section#quote img#tagLine {
+	margin: 0 auto;
+	width:100%;
+}
+
+#textLogo  {
+	margin: 0 auto;
+	margin-top: 50px;
+	clear: both;
+}
+
+section#aboutImage {	
+	clear: both;
+	margin:0 auto;
+	margin-top:50px;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+
+section#quote img#heartLogo {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #000;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+	opacity: .5;
+	border-radius: 50px;
+	clear: both;
+}
+
+section#quote img#heartLogo:hover {
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+  	opacity:.7;
+}
+
+#profilePanel {
+	width:1308px;
+	margin: 0 auto;
+	margin-top:100px;
+	margin-bottom: 100px;
+}
+
+#bioText {
+	font-size: 1.5em;
+	font-family: 'Maven Pro', sans-serif;
+	line-height:1.5em;
+
+}
+
+#profileF {
+	float:right;
+}
+
+img#profileF {
+
+}
+
+#moreSection {
+	width: 400px;
+	height: 60px;
+	margin: 0 auto;
+	float: right;
+}
+
+
+#moreButton {
+	margin-top:40px;
+
+}
+
+button {
+	box-shadow: 2px 2px;
+	width:250px;
+	height: 60px;
+	margin-left:80px;
+	margin-top:45px;
+	background-color: #000;
+	border-radius: 50px;
+	font-family: 'Maven Pro', sans-serif;
+	color: #FFF;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+  	opacity:.6;
+}
+
+button:hover {
+	background-color: #97e4e1;
+	color: #000;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+  	opacity:1;
+}
+
+
+/**********************************************FOOTER*********************************************************************/
+
+footer {
+	background-image: url('../assets/images/paper1280x625BG.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height:200px;
+	margin: 0 auto;
+	float: left;
+	clear:both;
+}
+
+
+#footerLogo {
+	float: left;
+}
+
+#socialMedia {
+	width:100%;
+	margin-top:50px;
+	margin-bottom:25px;
+	float:left;
+}
+#socialNav {
+	margin-top: 200px;
+	margin: 0 auto;
+	width:1000px;
+	height:75px;
+}
+ul#footerNav {
+	margin-top:100px;
+	margin: 0 auto;
+}
+
+ul#footerNav li {	
+	display: inline;
+	margin-left: 40px;
+	opacity: .5;
+}
+
+ul#footerNav li:hover {
+	opacity: 1;
+}
+
+#copyright {
+	
+	margin: 0 auto;
+	width:500px;
+	height:100px;
+	text-align: center;
+}
+
+
+/**********************************************MEDIA QUERY 1*********************************************************************/
+
+@media screen and (min-width:900px) and (max-width: 1200px) {
+
+
+/********************* ABOUT/HOME PAGE *********************************/
+	#bioText {
+		font-size:20px;
+		width:700px;
+		margin-left:50px;
+	}
+
+	#profilePanel {
+		width:800px;
+	}
+
+	div#profileF {
+		margin-left:100px;
+		float:none;
+		height:600px;
+	}
+
+
+	div#moreSection{
+		margin-bottom:40px;
+		float:none;
+	}
+
+
+	img.bulletAlign {
+		
+	}
+
+	h1 {
+		font-size:1.5em;
+	}
+
+
+	#logo {
+		height: 150px;
+	}
+
+	
+
+	nav {
+		width: 100%;
+	}
+
+	#navWrap {		
+		width:100%;
+		margin: 0 auto;
+	}
+
+	#topnav {
+		margin:0 auto;
+		width:500px;
+	}
+
+	ul#topNav {
+		margin-right:0;
+	}
+
+	#icons  {
+		float:none;
+	}
+
+/********************* ABOUT/HOME FOOTER  MEDIA QUERY 1 *********************************/
+
+	footer {
+		height:300px;
+		margin: 0 auto;	
+	}
+
+
+	#socialMedia {
+		margin: 0 auto;
+		padding-top:50px;		
+	}
+
+	#socialNav {		
+		width:400px;
+		height:200px;
+	}
+
+	#footerNav {
+		clear:both;
+		padding:20px 0 0;
+		width:400px;
+	}
+
+	ul#footerNav {
+		display:block;
+	}
+
+	ul#footerNav li {
+		margin-left: 0;
+	}
+
+	#copyright {		
+		margin-top:150px;
+		height:60px;		
+	}
+
+}
+
+
+
+/**********************************************MEDIA QUERY 2*********************************************************************/
+
+@media screen and (min-width:480px) and (max-width: 900px) {
+
+/****************************ADDDITION  ***************************************/
+	#bioText {
+		font-size:20px;
+		width:700px;
+		margin-left:50px;
+		font-size:16px;
+	}
+	
+
+	#profilePanel {
+		width:800px;
+	}
+
+	div#profileF {
+		margin-left:100px;
+		float:none;
+		height:600px;
+	}
+
+
+	div#moreSection{
+		margin-bottom:40px;
+		float:none;
+	}
+
+
+	.bulletAlign {
+		display:none;
+	}
+
+	img.bulletAlign {
+		max-height: 70px;
+		max-width: 70px;
+	}
+
+
+	h1 {
+		font-size:1.5em;
+		min-width:200px;
+		max-width:300px;
+		width:300px;
+		margin: 0 auto;
+	}
+	
+
+
+	#logo {
+		height: 150px;
+		width: 400px;
+	}
+
+	
+
+	nav {
+		width: 100%;
+		width:400px;
+		margin: 0 auto;
+	}
+
+	#navWrap {		
+		width:100%;
+		margin: 0 auto;
+	}
+
+	#topnav {
+		margin:0 auto;
+		width:500px;
+		margin-right:0;
+	}
+
+	ul#topNav {
+		margin-right:0;
+	}
+
+	#icons  {
+		float:none;
+	}
+
+/********************* ABOUT/HOME FOOTER  MEDIA QUERY 2 *********************************/
+
+	footer {
+		height:300px;
+		margin: 0 auto;	
+	}
+
+
+	#socialMedia {
+		margin: 0 auto;
+		padding-top:50px;		
+	}
+
+	#socialNav {		
+		width:400px;
+		height:200px;
+	}
+
+	#footerNav {
+		clear:both;
+		padding:20px 0 0;
+		width:400px;
+	}
+
+	ul#footerNav {
+		display:block;
+	}
+
+	ul#footerNav li {
+		margin-left: 0;
+	}
+
+	#copyright {		
+		margin-top:150px;
+		height:60px;		
+	}
+
+
+	ul#topNav {
+		clear:both;
+	}
+
+	#iconOne {
+		width:75px;
+		height:75px;
+		float: left;
+		margin: 0 auto;
+	}
+
+
+	#iconTwo {
+			width:75px;
+			height:75px;
+			
+	}
+
+	#iconThree {
+			width:75px;
+			height:75px;
+			
+	}
+
+	#iconFour {
+			width:75px;
+			height:75px;
+		
+	}
+
+	#iconFive {
+			width:75px;
+			height:75px;
+			
+	}
+
+
+	.top {
+		width:75px;
+		height:75px;
+	}
+
+	#icons {
+		float:none;
+	}
+
+/********************* ABOUT/HOME FOOTER *********************************/
+
+	footer {
+		background-image: url('../assets/images/paper1280x625BG.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height:300px;
+		margin: 0 auto;
+		float: left;
+		clear:both;
+	}
+
+
+	#footerLogo {
+		float: left;
+		margin: 0 auto;
+	}
+
+	#socialMedia {
+		width:100%;
+		margin-top:70px;
+		margin-bottom:25px;
+		clear:both;
+	}
+	#socialNav {
+		
+		margin: 0 auto;
+		width:400px;
+		height:200px;
+	}
+
+	#footerNav {
+		clear:both;
+		padding:0;
+		width:400px;
+	}
+	
+	ul#footerNav {
+		margin-top:100px;
+		margin: 0 auto;
+		padding:0;
+	}
+
+	ul#footerNav li {
+		display: inline;
+		margin:0;
+	}
+
+	ul#footerNav li {
+		opacity: .5;
+	}
+
+	ul#footerNav li:hover {
+		opacity: 1;
+	}
+
+	#copyright {		
+		margin: 0 auto;
+		width:500px;
+		height:60px;
+		margin-top:30px;
+		clear:both;		
+	}
+		
+}
+
+/********************* shoppage   *********************************/
+
+
+
+
+/**********************************************MEDIA QUERY 3*********************************************************************/
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+
+/********************* ABOUT/HOME PAGE *********************************/
+
+	#bioText {
+		font-size:16px;
+		width:400px;
+	}
+
+
+	img.bulletAlign {
+		max-height: 70px;
+		max-width: 70px;
+	}
+
+	h1 {
+		min-width:200px;
+		max-width:300px;
+		width:300px;
+		margin: 0 auto;		
+	}
+
+	
+
+	.bulletAlign {
+		display:none;
+	}
+
+	#logo {
+		width: 100%;
+		height: 75px;
+		margin: 0 auto;
+		margin-bottom:10px;
+	}
+
+	#logo img {
+		width:100%;
+	}
+
+	nav {
+		width: 100%;
+		margin: 0 auto;
+		z-index:50;
+		position:fixed;
+
+	}
+	
+	#navWrap {		
+		width:100%;
+		margin: 0 auto;
+	}
+
+	ul#topNav {
+		margin:0 auto;
+	}
+
+	#topnav {
+		margin:0 auto;
+	}
+
+	#iconOne {
+		width:75px;
+		height:75px;
+		float: left;
+		margin: 0 auto;
+	}
+
+
+	#iconTwo {
+			width:75px;
+			height:75px;
+			
+	}
+
+	#iconThree {
+			width:75px;
+			height:75px;
+			
+	}
+
+	#iconFour {
+			width:75px;
+			height:75px;
+		
+	}
+
+	#iconFive {
+			width:75px;
+			height:75px;
+			
+	}
+
+
+	.top {
+		width:75px;
+		height:75px;
+	}
+
+	#icons {
+		position:fixed;
+		float:left;
+		width:75px;
+		z-index:50;
+		margin-top:120px;
+	}
+
+
+/********************* ABOUT/HOME FOOTER *********************************/
+
+	footer {
+		background-image: url('../assets/images/paper1280x625BG.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height:300px;
+		margin: 0 auto;
+		float: left;
+		clear:both;
+	}
+
+
+	#footerLogo {
+		float: left;
+		margin: 0 auto;
+	}
+
+	#socialMedia {
+		width:100%;
+		margin-top:70px;
+		margin-bottom:25px;
+		clear:both;
+	}
+	#socialNav {
+		
+		margin: 0 auto;
+		width:400px;
+		height:200px;
+	}
+
+	#footerNav {
+		clear:both;
+		padding:0;
+		width:800px;
+	}
+	
+	ul#footerNav {
+		margin-top:100px;
+		margin: 0 auto;
+		padding:0;
+	}
+
+	ul#footerNav li {
+		display: inline;
+		margin:0;
+	}
+
+	ul#footerNav li {
+		opacity: .5;
+	}
+
+	ul#footerNav li:hover {
+		opacity: 1;
+	}
+
+	#copyright {		
+		margin: 0 auto;
+		width:500px;
+		height:60px;
+		float: left;
+		margin-top:-50px;
+	}
+}
+/**********************************************SHOP PAGE*********************************************************************/
+
+
+section#onlineBlurb {
+	height: 700px;
+	background-image: url('../assets/images/sectionimage2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0 auto;
+	float:left;
+	width:100%;
+	padding: 0 100px;
+}
+
+section#onlineBlurb img#tagLine {
+	margin: 0 auto;
+	width:100%;
+}
+
+#textLogo  {
+	margin: 0 auto;
+	margin-top: 50px;
+	clear: both;
+}
+
+section#shopPage {	
+	clear: both;
+	margin:0 auto;
+	margin-top:50px;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+section#onlineBlurb img#shopLink {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #000;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+	opacity: .5;
+	border-radius: 50px;
+	clear: both;
+}
+
+section#onlineBlurb img#shopLink:hover {
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+	opacity: .7;
+}
+
+#shopPanel {
+	margin: 0 auto;
+	margin-top:100px;
+	margin-bottom: 100px ;
+}
+
+#shopText {
+	margin-left:100px;
+	font-size: 2em;
+	font-family: 'Maven Pro', sans-serif;
+	float:left;
+	width: 900px;
+	height:400px;
+	line-height:1.5em;
+}
+
+#shopPage {
+	padding:20px;
+}
+#shopLogos {
+	width:400px;
+	height:315px;
+	margin:0 auto;
+}
+
+#shopLogos img {
+	position:absolute;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+}
+
+#shopLogos img.top:hover {
+  opacity:0;
+}
+
+
+#profileF {
+	float:right;
+	width:455px;
+	height:700px;
+	opacity: .8;
+	margin-right:100px;
+}
+
+
+
+/**********************************************CONTACT PAGE*********************************************************************/
+
+
+section#contactBlurb {
+	height: 700px;
+	background-image: url('../assets/images/sectionimage3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0 auto;
+	float:left;
+	width:100%;
+	padding: 0 100px;
+}
+
+section#contactBlurb img#tagLine {
+	margin: 0 auto;
+	width:100%;
+}
+
+#textLogo  {
+	margin: 0 auto;
+	margin-top: 50px;
+	clear: both;
+}
+
+section#contactPage {	
+	clear: both;
+	margin:0 auto;
+	margin-top:50px;
+	width:100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	float: left;
+}
+
+section#contactBlurb img#contactLink {
+	display: block;
+	width: 200px;
+	margin: 0 auto;
+	margin-top: 50px;
+	background-color: #000;
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+	opacity: .5;
+	border-radius: 50px;
+	clear: both;
+}
+
+section#contactBlurb img#contactLink:hover {
+	-webkit-transition: opacity .5s ease-in-out;
+	-moz-transition: opacity .5s ease-in-out;
+  	-o-transition: opacity .5s ease-in-out;
+  	transition: opacity .5s ease-in-out;
+  	opacity:.7;
+}
+
+#contactPanel {
+	margin: 0 auto;
+	margin-top:100px;
+}
+
+#contactText {
+	font-size: 2em;
+	font-family: 'Maven Pro', sans-serif;
+	width: 900px;
+	height:300px;
+	line-height:1.5em;
+	margin: 0 auto;
+}
+
+#contactPage {
+	padding:20px;
+}
+#shopLogos {
+	width:400px;
+	height:315px;
+	float:right;
+	margin-right:100px;
+}
+#profileF {
+	float:right;
+	width:455px;
+	height:700px;
+	opacity: .8;
+	margin-right:100px;
+}
+
+#contactForms {
+	width:650px;
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
+#messageSubmit {
+	font-size: 2.5em;
+	font-family: 'Maven Pro', sans-serif;
+	text-transform: lowercase;
+	vertical-align: center;
+	
+}
+
+#buttonWrap {
+	margin: 0 auto;
+}
+
+.formInputs {
+
+}
+
+.formInputs li {
+	list-style:none;
+}
+
+textarea#messageText  {
+	width:600px;
+	height:200px;
+}
+
